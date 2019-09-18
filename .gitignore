@@ -1,0 +1,10 @@
+/work/*
+.settings
+.classpath
+.project
+release.properties
+/*.iml
+/.idea/
+/.gradle/
+/build/
+/out/

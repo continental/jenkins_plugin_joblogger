@@ -1,0 +1,51 @@
+buildscript {
+    repositories {
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath "org.jenkins-ci.tools:gradle-jpi-plugin:0.33.0"
+    }
+}
+
+apply plugin: "org.jenkins-ci.jpi"
+apply plugin: "checkstyle"
+
+group = "org.jenkins-ci.plugins"
+version = "1.2-SNAPSHOT"
+description = "job-logger"
+ 
+jenkinsPlugin {
+    coreVersion = "2.121.1"                                             // Version of Jenkins core this plugin depends on.
+    displayName = "Job Logger Plugin"                                   // Human-readable name of plugin.
+    url = "http://www.github.com/Continental/joblogger"                 // URL for plugin on Jenkins wiki or elsewhere.
+    gitHubUrl = "http://www.github.com/Continental/joblogger"           // Plugin URL on GitHub. Optional.
+    shortName = "job-logger"                                            // Plugin ID, defaults to the project name without trailing '-plugin'
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven { 
+        url 'https://repo.jenkins-ci.org/public/'
+    }
+}
+
+dependencies {
+    jenkinsPlugins 'org.jenkins-ci.plugins.workflow:workflow-step-api:2.18@jar'
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.powermock:powermock-module-junit4:1.7.0'
+    testCompile 'org.powermock:powermock-api-mockito2:1.7.0'
+    testCompile 'org.powermock:powermock-module-junit4-rule:1.7.0'
+}
+
+checkstyle {
+    toolVersion = '8.2'
+    configFile = file("checkstyle_sun_adapted.xml");
+    showViolations = true
+    maxWarnings = 10
+    maxErrors = 0
+    checkstyleTest.enabled = false
+}

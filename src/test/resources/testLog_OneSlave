@@ -1,0 +1,12 @@
+Gestartet durch Benutzer [8mha:////4NMksttNZLR39TgKr53lnZ/gMORB1532n7Wv0BN7TFLDAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Running in Durability level: MAX_SURVIVABILITY
+[8mha:////4F0mLMX0gP4hiGRK27fLn9Emp6ImuqeAsdXB8viDbWVHAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on [8mha:////4DwSAfgNVycvU81GOlRdyJ4AQqgXkzgLvy8pMLpR0zURAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mTest Node 1 in D:\git\contifactory\jenkins_plugin_joblogger\work\workspace\another_test_job
+[8mha:////4F0mLMX0gP4hiGRK27fLn9Emp6ImuqeAsdXB8viDbWVHAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4F0mLMX0gP4hiGRK27fLn9Emp6ImuqeAsdXB8viDbWVHAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] echo
+hello again
+[8mha:////4F0mLMX0gP4hiGRK27fLn9Emp6ImuqeAsdXB8viDbWVHAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4F0mLMX0gP4hiGRK27fLn9Emp6ImuqeAsdXB8viDbWVHAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4F0mLMX0gP4hiGRK27fLn9Emp6ImuqeAsdXB8viDbWVHAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+[another_test_job#9, result: SUCCESS, start date: Wed Feb 28 16:20:31 CET 2018, end date: Wed Feb 28 16:20:32 CET 2018, cause: Gestartet durch Benutzer anonymous, node: master, console URL: http://10.215.66.22:8080/jenkins/job/another_test_job/9//console]
+Finished: SUCCESS
